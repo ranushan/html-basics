@@ -1,0 +1,49 @@
+body
+{
+    margin:0;
+    min-width : 100vw;
+    min-height : 100vh;
+}
+.container
+{
+    width : 90%;
+    height : 100%;
+    margin : auto;
+    text-align:center;
+    border : 1px solid black;
+}
+header, footer
+{
+    width:100%;
+    background-color : beige
+}
+
+footer
+{
+    clear:both;
+}
+
+nav
+{
+    background-color:burlywood
+}
+
+section
+{
+    width:70%;
+    background-color:sandybrown;
+    float:left;
+}
+
+article
+{
+    width:100%;
+    background-color:brown;
+}
+
+aside
+{
+    width:25%;
+    background-color:rosybrown;
+    float: right;
+}

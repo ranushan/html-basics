@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>FORMS IN HTML</title>
+    </head>
+	
+	<body>
+        <h1>FORMS ELEMENTS</h1>
+        
+        <hr/>
+        
+        <h4>WRITE A DATA IN TEXT AREA WITH LABEL TAG AND INPUT TAG WITH TEXT TYPE</h4>
+        <label for="clientName">Client name : </label>
+        <input type="text" name="clientName" id="clientName"/>
+        
+        <hr/>
+
+        <h4>WRITE TEXT IN TEXT AREA WITH MULTI LINES WITH TEXT AREA TAG</h4>
+        <textarea rows="4" cols="80">
+        </textarea>
+        
+        <hr/>
+         
+        <h4>WRITE A DATE IN INPUT WITH DATE TYPE</h4>
+        <label for="dateStay">Date of stay :</label>
+        <br/>
+        <input type="date" name="dateStay" id="dateStay"/>
+        <br/>
+
+        <hr/>
+       
+        <h4>ADD RADIO BUTTONS WITH LABEL TAG AND INPUT TAG WITH RADIO TYPE</h4>
+        <input type="radio" name="Period" value="MORNING" id="morning"/> 
+        <label for="morning">MORNING</label>
+        <input type="radio" name="Period" value="AFTERNOON" id="afternoon"/>
+        <label for="afternoon">AFTERNOON</label>
+        <input type="radio" name="Period" value="NIGHT" id="night"/>
+        <label for="night">NIGHT</label>
+
+        <hr/>
+        
+        <h4>CHECKBOX BUTTONS WITH LABEL TAG AND INPUT TAG WITH CHECKBOX TYPE</h4>
+        <input type="checkbox" name="Period" value="MORNING" id="morning"/>
+        <label for="morning">MORNING</label>
+        <input type="checkbox" name="Period" value="AFTERNOON" id="afternoon"/>
+        <label for="afternoon">AFTERNOON</label>
+        <input type="checkbox" name="Period" value="NIGHT" id="night"/>
+        <label for="night">NIGHT</label>
+        
+        <hr/>
+        
+        <h4>DROPDOWN LIST WITH SELECT, OPTGROUP AND OPTION TAG</h4>  
+        <select>
+            <optgroup label="WEB LANGUAGES">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option> 
+                <option value="JAVASCRIPT">JAVASCRIPT</option>
+                <option value="PHP">PHP</option> 
+            </optgroup>
+            <optgroup label="OBJECT LANGUAGES">
+                <option value="PYTHON">PYTHON</option>
+                <option value="JAVA">JAVA</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+            </optgroup>
+            <optgroup label="DATABASE LANGUAGES">
+                <option value="SQL">SQL</option>
+            </optgroup>
+            <optgroup label="OTHER LANGUAGES">
+                <option value="C">C</option>
+                <option value="PERL">PERL</option>
+            </optgroup>
+        </select>
+    </body>
+</html>

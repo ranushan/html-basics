@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>TABLES</title>
+        <link rel="Stylesheet" href="style.css"/>
+    </head>
+	
+    <body>
+      <h2>FIRST TABLE WITH TABLE, TR, TH AND TD TAG</h2>
+        <table>
+            <tr>
+                <th>LASTNAME</th>
+                <th>FIRSTNAME</th>
+                <th>ADDRESS</th>
+                <th>POST CODE</th>
+                <th>CITY</th>
+            </tr>
+            <tr>
+                <td>LEFEVRE</td>
+                <td>Thomas</td>
+                <td>5 Avenue Anatole France</td>
+                <td>75007</td>
+                <td>PARIS</td>
+            </tr>
+            <tr>
+                <td>DUBOIS</td>
+                <td>Carine</td>
+                <td>Buckingham Palace</td>
+                <td>SW1A 1AA</td>
+                <td>LONDON</td>
+            </tr>
+            <tr>
+                <td>PERRIER</td>
+                <td>Frédéric</td>
+                <td>20 W 34th Street</td>
+                <td>NY 10001</td>
+                <td>NEW YORK</td>
+            </tr>
+            <tr>
+                <td>DUPUIS</td>
+                <td>Sylvie</td>
+                <td>Place Charles de Gaulle</td>
+                <td>75008</td>
+                <td>PARIS</td>
+            </tr>
+        </table>
+
+        <hr/>
+
+        <h2>SECOND TABLE WITH HEADLINES AND COLUMNS</h2>
+        <h5>(Table is structured with thead, tbody et tfoot tag)</h5>
+       
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>LASTNAME</th>
+                    <th>FIRSTNAME</th>
+                    <th>ADDRESS</th>
+                    <th>POST CODE</th>
+                    <th>CITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>PLAYER 1</th>
+                    <td>LEFEVRE</td>
+                    <td>Thomas</td>
+                    <td>5 Avenue Anatole France</td>
+                    <td>75007</td>
+                    <td>PARIS</td>
+                </tr>
+                <tr>
+                    <th>PLAYER 2</th>
+                    <td>DUBOIS</td>
+                    <td>Carine</td>
+                    <td>Buckingham Palace</td>
+                    <td>SW1A 1AA</td>
+                    <td>LONDON</td>
+                </tr>
+                <tr>
+                    <th>PLAYER 3</th>
+                    <td>PERRIER</td>
+                    <td>Frédéric</td>
+                    <td>20 W 34th Street</td>
+                    <td>NY 10001</td>
+                    <td>NEW YORK</td>
+                </tr>
+                <tr>
+                    <th>PLAYER 4</th>
+                    <td>DUPUIS</td>
+                    <td>Sylvie</td>
+                    <td>Place Charles de Gaulle</td>
+                    <td>75008</td>
+                    <td>PARIS</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>
+                        TOTAL POINTS
+                    </th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>50</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr/>
+        
+        <h2>THIRD TABLE WITH ATTRIBUTE <br/>COLSPAN AND ROWSPAN TO MERGE CELLS</h2>
+
+        <table class="layout">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>LASTNAME</th>
+                    <th>FIRSTNAME</th>
+                    <th>ADDRESS</th>
+                    <th>POST CODE</th>
+                    <th>CITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>PLAYER 1</th>
+                    <td>LEFEVRE</td>
+                    <td>Thomas</td>
+                    <td>5 Avenue Anatole France</td>
+                    <td>75007</td>
+                    <td>PARIS</td>
+                </tr>
+                <tr>
+                    <th>PLAYER 2</th>
+                    <td>DUBOIS</td>
+                    <td>Carine</td>
+                    <td>Buckingham Palace</td>
+                    <td>SW1A 1AA</td>
+                    <td>LONDON</td>
+                </tr>
+                <tr>
+                    <th>PLAYER 3</th>
+                    <td>PERRIER</td>
+                    <td>Frédéric</td>
+                    <td>20 W 34th Street</td>
+                    <td>NY 10001</td>
+                    <td>NEW YORK</td>
+                </tr>
+                <tr>
+                    <th>PLAYER 4</th>
+                    <td>DUPUIS</td>
+                    <td>Sylvie</td>
+                    <td>Place Charles de Gaulle</td>
+                    <td>75008</td>
+                    <td>PARIS</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th rowspan=2>
+                        TOTAL POINTS
+                    </th>
+                    <td colspan=2>DEPARTMENT</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td colspan=2>REGIONAL</td>
+                    <td>70</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
