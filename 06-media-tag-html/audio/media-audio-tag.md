@@ -3,7 +3,7 @@ Link to audio resource
 
 ## Explain
 Structure :
-- <audio> : can be add audio file on web page
+- `<audio>` : can be add audio file on web page
     - You should provide mp3 file because some browser doesn't allow to play other extension file
     - audio tag has multiple attribute :
         - src : file path of your audio file
